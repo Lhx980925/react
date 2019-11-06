@@ -1,0 +1,114 @@
+*{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  line-style:none;
+}
+body{
+  background-color: #ddd;
+}
+/*Header*/
+.headerwrap{
+  height:50px;
+  background-color:#444444;
+}
+.headerwrap header{
+  width:1200px;
+  margin:0 auto;
+}
+.headerwrap img{
+  margin-top:10px;
+  width:120px;
+}
+.headerwrap a{
+  margin:0 20px;
+  color:#fff;
+  text-decoration:none;
+}
+/*main*/
+.main{
+  width:1200px;
+  margin:30px auto;
+}
+.content{
+  width:900px;
+  float:left;
+  border:2px solid white;
+}
+.sider{
+  width:270px;
+  height:900px;
+  float:right;
+  background-color:white;
+}
+/* home */
+.home{
+  background-color:white;
+}
+.home-header{
+  line-height:40px;
+  background-color:#f6f6f6;
+  height:40px;
+}
+.home-choice{
+  text-decoration:none;
+  color:green;
+}
+.home-body{
+  background-color:white;
+}
+.home-value{
+  width:900px;
+  height:50px;
+  border:1px solid #f6f6f6;
+  border-style:none none solid none;
+}
+.home-title{
+  text-decoration:none;
+  margin-left:10px;
+  height:50px;
+  line-height:50px;
+}
+.home-bottom{
+  background-color:white;
+  height:30px;
+  margin-top:10px;
+}
+.home-page{
+  text-align:center;
+  width:25px;
+  height:25px;
+  float:left;
+  background-color:white;
+  border:1px solid black;
+  text-decoration:none;
+  margin-left:10px;
+}
+/* topic */
+.topic-header{
+  border:1px solid black;
+  border-style:none none solid none;
+}
+/*
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root{
+  width:100px;
+  height:100px;
+  background-color:red;
+}
+*/
