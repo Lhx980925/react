@@ -32,9 +32,6 @@ export default class Job extends Component {
             })
         }
     }
-    new=()=>{
-        window.location.reload();
-    }
     render() {
         return (
             <div>
@@ -53,7 +50,7 @@ export default class Job extends Component {
                             <div style={{float:"left",marginTop:17,marginLeft:5,fontSize:5,color:"purple"}}>{item.reply_count}</div>
                             <div style={{float:"left",marginTop:17,marginLeft:5,fontSize:1}}>/{item.visit_count}</div>
                             <div style={{float:"left",marginTop:17,marginLeft:5,backgroundColor:"green",color:"white",fontSize:2,width:30,height:18,textAlign:"center"}}>置顶</div>
-                            <Link to={'/work/'+item.id} className="home-title" onClick={this.new}>{item.title}</Link>
+                            <Link to={'/work/'+item.id} className="home-title">{item.title}</Link>
                             <div style={{float:"right",marginTop:17,fontSize:2}}>8个月前</div>
                             <div style={{marginTop:16,float:"right",marginRight:3}}><img src={item.author.avatar_url} style={{height:20,width:20}}/></div>
                         </div>

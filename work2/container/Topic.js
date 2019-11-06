@@ -26,6 +26,7 @@ export default class Topic extends Component {
             console.log(this.state.data);
             //console.log(this.state.data[12].replies[0].content);
         })
+        arr=[];
     }
     // shouldComponentUpdate(){
         
@@ -47,6 +48,7 @@ export default class Topic extends Component {
                 console.log(this.state.data);
             })
         }
+        arr=[];
     }
     render() {
         return (
